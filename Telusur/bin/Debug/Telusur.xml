@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Telusur
+</name>
+</assembly>
+<members>
+<member name="T:Telusur.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Telusur.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Telusur.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pelayananDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.petugasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.penggunaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengembalianDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengambilanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.berkas_masukDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pelayananRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.petugasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.penggunaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengembalianRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengambilanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.berkas_masukRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pelayananRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.petugasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.penggunaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengembalianRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.pengambilanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSet.berkas_masukRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.pelayananTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.petugasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.penggunaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.pengembalianTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.pengambilanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.berkas_masukTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Telusur.kel_5DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Telusur.kel_5DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Telusur.kel_5DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.UpdateAll(Telusur.kel_5DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Telusur.kel_5DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
