@@ -63,6 +63,17 @@ Namespace My
                 Return CType(Me("kel_5ConnectionString"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=103.123.25.48;user id=akademis;password=akademis;database=kel_5;sslmode=No"& _ 
+            "ne")>  _
+        Public ReadOnly Property kel_5ConnectionString1() As String
+            Get
+                Return CType(Me("kel_5ConnectionString1"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 
